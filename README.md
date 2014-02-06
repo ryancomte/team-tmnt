@@ -1,5 +1,6 @@
 team-tmnt
 =========
+<<<<<<< HEAD
 
 A simple project for practicing Angular, angular-ui-router, and services
 
@@ -112,3 +113,5 @@ resolve:  {
 ##Step 5 (Black Diamond): Make a nested view for each individual character
 * Add a `getCharacter` method for the TurtleService using this url: 'http://pure-ocean-3603.herokuapp.com/character/'+charId
 * Nest a view and create the appropriate state for showing the character information when someone clicks on a character on the team page. Use the [angular-ui-router](https://github.com/angular-ui/ui-router) docs for help.
+=======
+>>>>>>> e501b4b4172f7c280a6cf41e83062cf41cba12c7
