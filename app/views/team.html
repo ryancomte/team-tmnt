@@ -1,0 +1,9 @@
+<div class="main-container">
+    <h1>{{ team.name }}</h1>
+    <ul>
+        <li ng-repeat="char in characters" dv-color="blue">
+            <dv-append text="{{ char.name }}" append="is a filthy animal.">Jabberwocky</dv-append>
+        </li>
+    </ul>
+    <div dv-table="characters" dv-table-headers="['id', 'name']"></div>
+</div>
